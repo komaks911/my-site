@@ -40,6 +40,18 @@
   "inLanguage": "ru"
 }
 </script>
+<!-- ═══ Yandex.Metrika counter ══════════════════════════════════════════ -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();
+   for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+   k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js?id=111883967", "ym");
+
+   ym(111883967, "init", {ssr:true, webvisor:true, clickmap:true, referrer: document.referrer, url: location.href, accurateTrackBounce:true, trackLinks:true});
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/111883967" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
 <script>
   /* Tailwind config must be set on window BEFORE CDN loads */
   window.tailwind = window.tailwind || {};
@@ -712,7 +724,7 @@ body { color: #111827; }
 
     <div class="mt-10 pt-8 border-t border-border">
       <p class="text-[12px] font-bold uppercase tracking-wider text-muted mb-4">Читайте также</p>
-      <div class="grid sm:grid-cols-2 gap-4">
+      <div class="grid sm:grid-cols-3 gap-4">
         <a href="/articles/pochemu-ostanavlivaetsya-dizelny-generator.html" class="block p-5 rounded-2xl border border-border hover:border-brand transition-colors group">
           <span class="text-[10px] font-bold uppercase tracking-wider text-brand">ДГУ · Практика</span>
           <h3 class="font-semibold text-ink text-[14px] leading-snug mt-2 mb-2 group-hover:text-brand transition-colors">Почему останавливается дизельный генератор: 7 причин из реальной практики</h3>
@@ -720,6 +732,10 @@ body { color: #111827; }
         <a href="/articles/priznaki-plohogo-b2b-sayta.html" class="block p-5 rounded-2xl border border-border hover:border-brand transition-colors group">
           <span class="text-[10px] font-bold uppercase tracking-wider text-brand">B2B · Сайты</span>
           <h3 class="font-semibold text-ink text-[14px] leading-snug mt-2 mb-2 group-hover:text-brand transition-colors">5 признаков того, что ваш B2B-сайт отталкивает клиентов</h3>
+        </a>
+        <a href="/articles/sayt-dlya-promyshlennoy-kompanii.html" class="block p-5 rounded-2xl border border-border hover:border-brand transition-colors group">
+          <span class="text-[10px] font-bold uppercase tracking-wider text-brand">Сайты · Промышленность</span>
+          <h3 class="font-semibold text-ink text-[14px] leading-snug mt-2 mb-2 group-hover:text-brand transition-colors">Сайт для промышленной компании: что должно быть, чтобы приходили заявки</h3>
         </a>
       </div>
     </div>
@@ -736,7 +752,7 @@ body { color: #111827; }
           <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
           <span data-i18n="footer_cta_tg">Написать в Telegram</span>
         </a>
-        <a href="#contact" class="inline-flex items-center gap-2 text-[13px] font-semibold px-4 py-2 rounded-lg transition-colors" style="background:rgba(37,99,235,.15);color:#7DD3FC;border:1px solid rgba(37,99,235,.3)" data-i18n="footer_cta_form">Оставить заявку</a>
+        <a href="/#contact" class="inline-flex items-center gap-2 text-[13px] font-semibold px-4 py-2 rounded-lg transition-colors" style="background:rgba(37,99,235,.15);color:#7DD3FC;border:1px solid rgba(37,99,235,.3)" data-i18n="footer_cta_form">Оставить заявку</a>
       </div>
     </div>
     <div class="flex flex-col sm:flex-row items-center justify-between gap-6">
@@ -752,8 +768,6 @@ body { color: #111827; }
       <div class="flex flex-wrap items-center justify-center gap-x-6 gap-y-2">
         <a href="https://www.linkedin.com/in/maksim-kovalevskii" target="_blank" rel="noopener" class="text-[13px] hover:text-white transition-colors flex items-center gap-1.5" style="color:#64748B"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>LinkedIn</a>
         <a href="https://t.me/KoMaks1" target="_blank" rel="noopener" class="text-[13px] hover:text-white transition-colors flex items-center gap-1.5" style="color:#64748B"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>Telegram</a>
-        <button onclick="openModal('privacy')" class="text-[13px] hover:text-white transition-colors" style="color:#64748B;background:none;border:none;cursor:pointer" data-i18n="footer_privacy">Политика конфиденциальности</button>
-        <button onclick="openModal('disclaimer')" class="text-[13px] hover:text-white transition-colors" style="color:#64748B;background:none;border:none;cursor:pointer" data-i18n="footer_disclaimer">Отказ от ответственности</button>
       </div>
       <div class="flex flex-col items-end gap-3">
         <div class="flex items-center gap-0.5 rounded-lg p-0.5" style="background:rgba(255,255,255,.06)">
